@@ -64,7 +64,7 @@ const Navbar = () => {
             {/* The Logo Image */}
             <img 
               src={LogoImg} 
-              alt="Workman Services" 
+              alt="Worksman Services" 
               className="h-20 w-auto object-contain md:h-28 lg:h-32 transition-all duration-300 group-hover:scale-105" 
               style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.1))' }}
             />

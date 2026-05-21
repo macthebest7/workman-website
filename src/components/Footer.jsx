@@ -12,7 +12,7 @@ const Footer = () => (
         <div className="flex flex-col items-start">
           <img 
             src={LogoImg} 
-            alt="Workman Services" 
+            alt="Worksman Services" 
             className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-90 mb-8" 
           />
           <p className="text-[11px] font-bold uppercase tracking-[0.15em] leading-relaxed opacity-60">

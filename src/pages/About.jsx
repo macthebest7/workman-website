@@ -51,7 +51,7 @@ const About = () => {
           <img 
             src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80" 
             className="grayscale w-full shadow-2xl border border-slate-200" 
-            alt="Workman Engineering Site" 
+            alt="Worksman Engineering Site" 
           />
           <div className="absolute bottom-6 right-6 bg-[#1e3a8a] text-white p-6 hidden lg:block">
             <History size={32} className="mb-2" />

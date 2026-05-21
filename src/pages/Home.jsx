@@ -186,9 +186,9 @@ const Home = () => {
           <h2 className="text-center text-3xl font-black uppercase tracking-tighter mb-16">Client Testimonials</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { n: "Engr. Ahmed Ali", c: "Pak Textiles", text: "Workman Services delivered our HVAC plant upgrade ahead of schedule. Their T&C process is incredibly thorough." },
+              { n: "Engr. Ahmed Ali", c: "Pak Textiles", text: "Worksman Services delivered our HVAC plant upgrade ahead of schedule. Their T&C process is incredibly thorough." },
               { n: "Sarah Khan", c: "Urban Mall", text: "Professional fire safety partners. They handled our Civil Defense approvals without any hassle." },
-              { n: "Bilal Ahmed", c: "Data Center Inc.", text: "Precision cooling is critical for us. Workman's design team understood our requirements perfectly." }
+              { n: "Bilal Ahmed", c: "Data Center Inc.", text: "Precision cooling is critical for us. Worksman's design team understood our requirements perfectly." }
             ].map((t, i) => (
               <div key={i} className="bg-white p-8 border border-slate-200">
                 <div className="flex gap-1 text-yellow-500 mb-4">

@@ -22,7 +22,7 @@ const TestingCommissioning = () => (
       <div className="max-w-3xl">
         <h2 className="text-2xl font-black uppercase mb-4">System Performance Verification</h2>
         <p className="text-slate-700 leading-relaxed mb-6">
-          Workman Services provides complete testing and commissioning (T&C) services for HVAC, fire fighting, and mechanical systems.
+          Worksman Services provides complete testing and commissioning (T&C) services for HVAC, fire fighting, and mechanical systems.
           We make sure every system works exactly as designed before final handover.
         </p>
         <p className="text-slate-700 leading-relaxed">

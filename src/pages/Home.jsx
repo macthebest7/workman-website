@@ -145,8 +145,8 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { n: "Decent Marriage Complex", t: "Commercial", l: "Lahore", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80" },
-              { n: "BioTech Pharma", t: "Industrial", l: "Faisalabad", img: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80" },
-              { n: "City Hospital", t: "Hospital", l: "Sahiwal", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80" }
+              { n: "Bio Tech Pharma", t: "Industrial", l: "Faisalabad", img: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80" },
+              { n: "City District Hospital", t: "Hospital", l: "Sahiwal", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80" }
             ].map((p, i) => (
               <div key={i} className="group overflow-hidden bg-white border border-slate-200">
                 <div className="overflow-hidden aspect-video">
@@ -236,7 +236,7 @@ const Home = () => {
                <a href="https://wa.me/923104144911" className="bg-[#25D366] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
                   <MessageSquare size={16} /> WhatsApp
                </a>
-               <a href="tel:+924235123456" className="bg-[#1e3a8a] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
+               <a href="tel:+92310444911" className="bg-[#1e3a8a] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
                   <Phone size={16} /> Call Now
                </a>
             </div>

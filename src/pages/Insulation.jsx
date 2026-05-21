@@ -27,7 +27,7 @@ const Insulation = () => {
           </h2>
 
           <p className="text-lg text-slate-700 leading-relaxed mb-6 font-medium">
-            Workman Services delivers complete thermal and acoustic insulation solutions designed to improve energy efficiency,
+            Worksman Services delivers complete thermal and acoustic insulation solutions designed to improve energy efficiency,
             reduce operational cost, and enhance system performance for industrial and commercial projects.
           </p>
 

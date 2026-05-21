@@ -33,11 +33,11 @@ const Footer = () => (
             </p>
             <p className="flex items-center gap-4">
               <Phone size={18} className="text-blue-500 shrink-0" /> 
-              <span>+92 (42) 3512-3456</span>
+              <span>+92 (310) 4144-911</span>
             </p>
             <p className="flex items-center gap-4">
               <Mail size={18} className="text-blue-500 shrink-0" /> 
-              <span>info@workmanservices.com.pk</span>
+              <span>info@worksmanservices.com</span>
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ const Footer = () => (
             Available for AMC clients across Punjab 24/7.
           </p>
           <p className="text-white font-mono text-2xl font-black tracking-tighter">
-            +92 333 1234567
+            +92 333 4144911
           </p>
         </div>
       </div>
@@ -74,7 +74,7 @@ const Footer = () => (
       {/* BOTTOM COPYRIGHT BAR */}
       <div className="mt-20 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-slate-600">
-          © 2026 WORKSMAN SERVICES (PVT) LTD. LAHORE
+          © 2026 WORKSMAN SERVICES LTD. LAHORE
         </p>
         
         <div className="flex gap-10">

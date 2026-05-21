@@ -34,13 +34,13 @@ const Navbar = () => {
         <div className="max-w-[1440px] mx-auto flex justify-between items-center text-[10px] font-bold uppercase tracking-[0.2em]">
           <div className="flex gap-8">
             <span className="flex items-center gap-2">
-              <Phone size={14} className="text-blue-500" /> +92 (42) 3512-3456
+              <Phone size={14} className="text-blue-500" /> +92 (310) 4144-911
             </span>
             <span className="flex items-center gap-2">
-              <Mail size={14} className="text-blue-500" /> info@worksmanservices.com.pk
+              <Mail size={14} className="text-blue-500" /> info@worksmanservices.com
             </span>
             <span className="flex items-center gap-2">
-              <MapPin size={14} className="text-blue-500" /> Ferozpur Road, Lahore
+              <MapPin size={14} className="text-blue-500" /> Main Raiwind Road, Lahore
             </span>
           </div>
           <div className="flex gap-6 opacity-90 items-center">
@@ -114,7 +114,7 @@ const Navbar = () => {
               <Phone size={16} /> Call Office
             </a>
             <a 
-              href="https://wa.me/923001234567" 
+              href="https://wa.me/923104144911" 
               target="_blank" 
               rel="noreferrer"
               className="bg-[#25D366] text-white p-4 hover:bg-[#1ebd5b] transition-all rounded-none shadow-md flex items-center justify-center"
@@ -153,7 +153,7 @@ const Navbar = () => {
               
               <li className="pt-10 grid grid-cols-1 gap-4">
                 <a href="tel:+924235123456" className="bg-[#1e3a8a] text-white py-5 text-center font-black">CALL NOW</a>
-                <a href="https://wa.me/923001234567" className="bg-[#25D366] text-white py-5 text-center font-black">WHATSAPP CHAT</a>
+                <a href="https://wa.me/923104144911" className="bg-[#25D366] text-white py-5 text-center font-black">WHATSAPP CHAT</a>
               </li>
             </ul>
           </div>

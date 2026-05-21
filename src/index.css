@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* If you want to keep your corporate colors from the previous step, 
+   add this @theme block right below the import */
+@theme {
+  --color-industry-navy: #0f172a;
+  --color-industry-blue: #1e3a8a;
+  --color-industry-steel: #475569;
+  --color-industry-light: #f8fafc;
+  --color-industry-accent: #2563eb;
+}
+
+/* Rest of your custom CSS */
+html {
+  scroll-behavior: smooth;
+}

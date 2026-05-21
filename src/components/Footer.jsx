@@ -66,7 +66,7 @@ const Footer = () => (
             Available for AMC clients across Punjab 24/7.
           </p>
           <p className="text-white font-mono text-2xl font-black tracking-tighter">
-            +92 333 4144911
+            +92 310 4144911
           </p>
         </div>
       </div>

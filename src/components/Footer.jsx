@@ -29,7 +29,7 @@ const Footer = () => (
           <div className="text-[10px] font-bold uppercase tracking-widest flex flex-col gap-6">
             <p className="flex items-start gap-4 leading-normal">
               <MapPin size={20} className="text-blue-500 shrink-0 mt-0.5" /> 
-              <span>Main Ferozpur Road, <br/>Industrial Area, Lahore, Pakistan</span>
+              <span>Main Raiwind Road, <br/>Industrial Area, Lahore, Pakistan</span>
             </p>
             <p className="flex items-center gap-4">
               <Phone size={18} className="text-blue-500 shrink-0" /> 
@@ -37,7 +37,7 @@ const Footer = () => (
             </p>
             <p className="flex items-center gap-4">
               <Mail size={18} className="text-blue-500 shrink-0" /> 
-              <span>info@worksmanservices.com</span>
+              <span>worksmanservices@yahoo.com</span>
             </p>
           </div>
         </div>

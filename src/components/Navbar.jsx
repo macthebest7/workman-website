@@ -37,7 +37,7 @@ const Navbar = () => {
               <Phone size={14} className="text-blue-500" /> +92 (310) 4144-911
             </span>
             <span className="flex items-center gap-2">
-              <Mail size={14} className="text-blue-500" /> info@worksmanservices.com
+              <Mail size={14} className="text-blue-500" /> worksmanservices@yahoo.com
             </span>
             <span className="flex items-center gap-2">
               <MapPin size={14} className="text-blue-500" /> Main Raiwind Road, Lahore
@@ -152,7 +152,7 @@ const Navbar = () => {
               <li><Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block py-5 border-b border-slate-50">Contact Us</Link></li>
               
               <li className="pt-10 grid grid-cols-1 gap-4">
-                <a href="tel:+924235123456" className="bg-[#1e3a8a] text-white py-5 text-center font-black">CALL NOW</a>
+                <a href="tel:+923104144911" className="bg-[#1e3a8a] text-white py-5 text-center font-black">CALL NOW</a>
                 <a href="https://wa.me/923104144911" className="bg-[#25D366] text-white py-5 text-center font-black">WHATSAPP CHAT</a>
               </li>
             </ul>

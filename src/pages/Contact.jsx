@@ -44,7 +44,7 @@ const Contact = () => {
                 <Mail className="text-[#1e3a8a] shrink-0" size={28} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Email Inquiries</h4>
-                  <p className="text-sm font-black uppercase text-slate-900">info@worksmanservices.com</p>
+                  <p className="text-sm font-black uppercase text-slate-900">worksmanservices@yahoo.com</p>
                 </div>
               </div>
             </div>

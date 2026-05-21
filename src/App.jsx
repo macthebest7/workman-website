@@ -8,11 +8,10 @@ import WhatsAppButton from './components/WhatsAppButton';
 import ScrollToTop from './components/ScrollToTop';
 
 // Pages
-// Pages - Double check these file names in your sidebar!
 import Home from './pages/Home';
 import About from './pages/About';
-import HvacService from './pages/Hvac';  // Change this if your file is named Hvac.jsx
-import FireService from './pages/Fire';  // Change this if your file is named Fire.jsx
+import HvacService from './pages/Hvac'; 
+import FireService from './pages/Fire'; 
 import MaintenanceService from './pages/MaintenanceService'; 
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
@@ -21,30 +20,37 @@ import AirConditioning from './pages/AirConditioning';
 import MechanicalServices from './pages/MechanicalServices';
 import TestingCommissioning from './pages/TestingCommissioning';
 import Insulation from './pages/Insulation';
+
 function App() {
   return (
     <Router>
-      {/* Ensures page starts at top when navigating */}
+      {/* Handles both Scrolling to top AND updating the Browser Tab Title */}
       <ScrollToTop /> 
       
-      <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white">
+      <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white selection:bg-blue-100">
         <Navbar />
         
-        {/* This main tag holds the unique content for every page */}
+        {/* Main Content Area */}
         <main className="flex-grow">
           <Routes>
+            {/* Core Pages */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services/hvac" element={<HvacService />} />
-            <Route path="/services/fire" element={<FireService />} />
-            <Route path="/services/maintenance" element={<MaintenanceService />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+
+            {/* Technical Service Pages - Paths aligned with Navbar links */}
+            <Route path="/services/hvac" element={<HvacService />} />
+            <Route path="/services/fire" element={<FireService />} />
             <Route path="/services/ventilation" element={<Ventilation />} />
             <Route path="/services/air-conditioning" element={<AirConditioning />} />
+            <Route path="/services/insulation" element={<Insulation />} />
             <Route path="/services/mechanical-engineering" element={<MechanicalServices />} />
             <Route path="/services/testing-commissioning" element={<TestingCommissioning />} />
-            <Route path="/services/insulation" element={<Insulation />} />
+            <Route path="/services/maintenance" element={<MaintenanceService />} />
+            
+            {/* Fallback for safety (Optional) */}
+            <Route path="/services/fire" element={<FireService />} />
           </Routes>
         </main>
 

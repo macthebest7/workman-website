@@ -172,7 +172,7 @@ const TestingCommissioning = () => (
         Need Professional Testing Services?
       </h2>
       <p className="text-slate-300 mb-6">
-        Contact Workman Services for complete testing and commissioning of your systems.
+        Contact Worksman Services for complete testing and commissioning of your systems.
       </p>
       <button className="bg-blue-600 px-6 py-3 uppercase text-xs font-bold tracking-widest">
         Request a Quote

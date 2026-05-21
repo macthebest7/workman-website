@@ -44,7 +44,7 @@ const Hvac = () => (
           </h2>
 
           <p className="text-slate-700 mb-6 leading-relaxed">
-            Workman Services provides complete HVAC engineering solutions including design, installation,
+            Worksman Services provides complete HVAC engineering solutions including design, installation,
             testing, and maintenance of advanced cooling and ventilation systems.
           </p>
 

@@ -21,9 +21,9 @@ const About = () => {
       {/* 2. OUR STORY (Simple English) */}
       <section className="py-24 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center border-b border-slate-100">
         <div>
-          <h2 className="text-2xl font-black uppercase text-[#0f172a] mb-6">About Workman Services</h2>
+          <h2 className="text-2xl font-black uppercase text-[#0f172a] mb-6">About Worksman Services</h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-6 font-medium">
-            Workman Services is a trusted engineering company based in Lahore. Since 2016, we have helped businesses with their heating, cooling, and fire safety systems.
+            Worksman Services is a trusted engineering company based in Lahore. Since 2016, we have helped businesses with their heating, cooling, and fire safety systems.
           </p>
           <p className="text-slate-600 leading-relaxed mb-8">
             We provide a complete service. This means we help you from the very start with the <strong>design and planning</strong>, through to the <strong>installation</strong>, and finally the <strong>long-term maintenance</strong>. Whether you have a factory, an office building, or a large house, we make sure your machines work perfectly.

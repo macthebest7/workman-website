@@ -19,7 +19,7 @@ const MaintenanceService = () => {
         <div>
           <h2 className="text-2xl font-black uppercase text-[#1e3a8a] mb-6">Proactive Asset Protection</h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-6 font-medium">
-            Since 2016, Workman Services has provided high-tier Annual Maintenance Contracts (AMC) to industrial and commercial facilities across Lahore. We ensure your mechanical infrastructure operates at peak efficiency with zero downtime.
+            Since 2016, Worksman Services has provided high-tier Annual Maintenance Contracts (AMC) to industrial and commercial facilities across Lahore. We ensure your mechanical infrastructure operates at peak efficiency with zero downtime.
           </p>
           
           <div className="space-y-4 mb-8">

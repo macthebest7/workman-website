@@ -19,14 +19,14 @@ const Contact = () => {
         {/* Left Side: Info */}
         <div className="space-y-10">
           <div>
-            <h2 className="text-2xl font-black uppercase text-[#0f172a] mb-8 tracking-tight">Workman Services Lahore</h2>
+            <h2 className="text-2xl font-black uppercase text-[#0f172a] mb-8 tracking-tight">Worksman Services Lahore</h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start border-l-4 border-[#1e3a8a] pl-6 py-2">
                 <MapPin className="text-[#1e3a8a] shrink-0" size={28} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Office Address</h4>
                   <p className="text-sm font-black uppercase text-slate-900 leading-relaxed">
-                    Workman Tower, Main Ferozpur Road,<br/>
+                    Worksman Services, Main Raiwind Road,<br/>
                     Lahore, 54000, Pakistan
                   </p>
                 </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                 <Phone className="text-[#1e3a8a] shrink-0" size={28} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Call Support</h4>
-                  <p className="text-xl font-black text-[#1e3a8a] tracking-tighter">+92 42 3512 3456</p>
+                  <p className="text-xl font-black text-[#1e3a8a] tracking-tighter">+92 310-4144911</p>
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                 <Mail className="text-[#1e3a8a] shrink-0" size={28} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Email Inquiries</h4>
-                  <p className="text-sm font-black uppercase text-slate-900">info@workmanservices.com.pk</p>
+                  <p className="text-sm font-black uppercase text-slate-900">info@worksmanservices.com</p>
                 </div>
               </div>
             </div>

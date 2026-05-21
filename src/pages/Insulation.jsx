@@ -183,7 +183,7 @@ const Insulation = () => {
           Need Professional Insulation Services?
         </h2>
         <p className="text-slate-300 mb-6">
-          Contact Workman Services for thermal and acoustic insulation solutions.
+          Contact Worksman Services for thermal and acoustic insulation solutions.
         </p>
         <button className="bg-blue-600 px-6 py-3 uppercase text-xs font-bold tracking-widest">
           Request a Quote

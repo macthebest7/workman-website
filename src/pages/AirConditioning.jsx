@@ -143,7 +143,7 @@ const AirConditioning = () => (
         Need a Reliable HVAC Solution?
       </h2>
       <p className="text-slate-300 mb-6">
-        Contact Workman Services for professional air conditioning system design and installation.
+        Contact Worksman Services for professional air conditioning system design and installation.
       </p>
       <button className="bg-blue-600 px-6 py-3 uppercase text-xs font-bold tracking-widest">
         Get a Quote

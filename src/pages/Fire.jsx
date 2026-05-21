@@ -46,7 +46,7 @@ const FireFighting = () => (
           </h2>
 
           <p className="text-slate-700 mb-6 leading-relaxed">
-            Workman Services provides full fire protection engineering solutions for commercial, industrial, and residential projects.
+            Worksman Services provides full fire protection engineering solutions for commercial, industrial, and residential projects.
             Our systems are designed to detect fire early, control it quickly, and reduce damage and risk.
           </p>
 

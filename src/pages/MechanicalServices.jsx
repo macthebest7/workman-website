@@ -133,7 +133,7 @@ const MechanicalServices = () => (
         Need Mechanical Engineering Support?
       </h2>
       <p className="text-slate-300 mb-6">
-        Contact Workman Services for reliable mechanical design, supply, and execution services.
+        Contact Worksman Services for reliable mechanical design, supply, and execution services.
       </p>
       <button className="bg-blue-600 px-6 py-3 uppercase text-xs font-bold tracking-widest">
         Request a Quote

@@ -45,7 +45,7 @@ const Home = () => {
         <div className="absolute bottom-0 w-full bg-[#0f172a]/90 py-8 hidden lg:block border-t border-blue-900/30">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-8">
             {[
-              { t: "20+ Years Experience", i: Clock, d: "Expert Leadership" },
+              { t: "10+ Years Experience", i: Clock, d: "Expert Leadership" },
               { t: "1000+ Projects", i: Building2, d: "Completed Nationwide" },
               { t: "Certified Engineers", i: Award, d: "Licensed Professionals" },
               { t: "Turnkey Solutions", i: ShieldCheck, d: "Design to Maintenance" }
@@ -66,10 +66,10 @@ const Home = () => {
       <section className="py-24 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-tighter mb-6">About Workman Services</h2>
+            <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-tighter mb-6">About Worksman Services</h2>
             <div className="w-20 h-1.5 bg-[#1e3a8a] mb-8"></div>
             <p className="text-slate-600 text-lg leading-relaxed mb-6 font-medium">
-              Workman Services has been providing reliable HVAC&R and Fire Fighting solutions since 2016. We deliver complete mechanical engineering services from design to long-term maintenance across commercial, industrial, and residential sectors.
+              Worksman Services has been providing reliable HVAC&R and Fire Fighting solutions since 2016. We deliver complete mechanical engineering services from design to long-term maintenance across commercial, industrial, and residential sectors.
             </p>
             <p className="text-slate-500 text-sm leading-relaxed mb-8">
               Our team operates with a "Safety First" mindset, ensuring that every installation meets international standards (NFPA & ASHRAE). Based in Lahore, we handle complex projects with precision engineering.
@@ -117,7 +117,7 @@ const Home = () => {
       {/* 4. WHY CHOOSE US SECTION */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-tighter mb-16 text-center">Why Workman Services</h2>
+          <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-tighter mb-16 text-center">Why Worksman Services</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
             {[
               { t: "Industry Experience Since 2016", i: History },
@@ -144,7 +144,7 @@ const Home = () => {
           <h2 className="text-3xl font-black text-[#0f172a] uppercase tracking-tighter mb-12">Successful Projects</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { n: "Grand Mall Towers", t: "Commercial", l: "Lahore", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80" },
+              { n: "Decent Marriage Complex", t: "Commercial", l: "Lahore", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80" },
               { n: "BioTech Pharma", t: "Industrial", l: "Faisalabad", img: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&q=80" },
               { n: "City Hospital", t: "Hospital", l: "Sahiwal", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80" }
             ].map((p, i) => (
@@ -213,27 +213,27 @@ const Home = () => {
                 <MapPin className="text-[#1e3a8a] shrink-0" size={24} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">Office Address</h4>
-                  <p className="text-xs font-black uppercase text-slate-900 leading-relaxed">Main Ferozpur Road, Lahore, 54000, Pakistan</p>
+                  <p className="text-xs font-black uppercase text-slate-900 leading-relaxed">Main Raiwind Road, Lahore, 54000, Pakistan</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start border-l-4 border-[#1e3a8a] pl-6">
                 <Phone className="text-[#1e3a8a] shrink-0" size={24} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">Call Support</h4>
-                  <p className="text-xs font-black uppercase text-slate-900">+92 42 3512 3456</p>
+                  <p className="text-xs font-black uppercase text-slate-900">+92 310-4144911</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start border-l-4 border-[#1e3a8a] pl-6">
                 <Mail className="text-[#1e3a8a] shrink-0" size={24} />
                 <div>
                   <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">Email Inquiries</h4>
-                  <p className="text-xs font-black uppercase text-slate-900">info@workmanservices.com.pk</p>
+                  <p className="text-xs font-black uppercase text-slate-900">info@worksmanservices.com</p>
                 </div>
               </div>
             </div>
             {/* Mobile CTAs */}
             <div className="mt-12 flex gap-4">
-               <a href="https://wa.me/923001234567" className="bg-[#25D366] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
+               <a href="https://wa.me/923104144911" className="bg-[#25D366] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
                   <MessageSquare size={16} /> WhatsApp
                </a>
                <a href="tel:+924235123456" className="bg-[#1e3a8a] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">

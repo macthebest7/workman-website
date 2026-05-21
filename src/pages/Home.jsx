@@ -236,7 +236,7 @@ const Home = () => {
                <a href="https://wa.me/923104144911" className="bg-[#25D366] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
                   <MessageSquare size={16} /> WhatsApp
                </a>
-               <a href="tel:+92310444911" className="bg-[#1e3a8a] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
+               <a href="tel:+923104144911" className="bg-[#1e3a8a] text-white px-6 py-4 flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">
                   <Phone size={16} /> Call Now
                </a>
             </div>
